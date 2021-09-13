@@ -1,0 +1,27 @@
+LARANJA#Fruta
+GOIABA#Fruta
+ALFACE#Verdura
+PEPINO#Legume
+ALFA ROMEU#Automovel
+CACHORRO#Animal
+PESSEGO#Fruta
+MANGA#Fruta
+MAMAO#Fruta
+CAJU#Fruta
+ACEROLA#Fruta
+CAJU#Fruta
+JACARE#Animal
+VIBORA#Animal
+SAPO#Animal
+TIGRE#Animal
+ALCACHOFRA#Flor ou verdura sabe Deus
+FUSCA#Automovel
+DINHEIRO#Solução dos problemas
+MORTADELA#Para comer com pao
+BICICLETA#Meio de locomoção
+BOLT THROWER#Banda de heavy metal
+MANILLA ROAD#Banda de heavy metal
+SLAYER#Banda de heavy metal
+JULIO VERNE#Escritor
+OSAMA BIN LADEN#Idolo da juventude (heheh!)
+GEORGE WALKER BUSH#Tem cheiro de enxofre (heheh!)

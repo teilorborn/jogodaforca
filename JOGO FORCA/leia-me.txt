@@ -1,0 +1,37 @@
+Aplicação: Jogo da Forca
+Autor: Marcio João Oliari
+Data: 16/12/2003
+Arquivo: Leia-me.txt
+
+Aplicação implementa um simples jogo de forca, contendo um dicionario de palavras, de onde se extrai 
+aleatoriamente uma palavra que deverá ser descoberta pelo jogador, mediante "chutes". Quando o usuário
+informa um caracter que exista na palavra, o mesmo é exibido, se errar o jogador é lentamente levado à 
+forca, se errar 6 caracteres o enforcamento se completa, com a morte do jogador.
+
+O arquivo "palavras.txt", contém o dicionario de palavras que serão utilizadas no jogo.
+Para inserir novas palavras editar o arquivo e inserir, o formato do arquivo deve ser:
+
+Palavra (em caracteres maiúsculos, sem acentuação, substituindo-se "Ç" por C, evitando-se conversões de 
+  caracter em tempo de execução);
+Separador de campo "#";
+Dica sobre a palavra.
+
+Ex:
+PALAVRA#Dica
+
+Os arquivos "forcax.jpg", São as imagens que exibem o status do enforcamento do jogador, onde
+em forca1.jpg, a forca está livre (disponivel) e
+em forca6.jpg, o jogador pende sem vida na mesma.
+
+
+
+Versao: 2 e 2.1
+Autor: Marcio Joao Oliari
+Data: 26/10/2007
+
+
+Adicionandos tags html basicas;
+Obtenção dos parametros $_REQUEST;
+Adicionada verificação de termino do jogo (vitoria);
+Adicionado javascript para auto-inicializar novo jogo ou nao! (parametros $ifWinneAutoStart e $ifDeathAutoStart);
+
