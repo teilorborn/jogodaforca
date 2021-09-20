@@ -11,22 +11,31 @@
 <style type="text/css">
 #forca{
 	position: absolute;
-	left: 130px;
-	top: 30px;
+	left: 75px;
+	top: 15px;
 }
 
 #letras{
 	position: relative;
+	border: 2px solid blue;
 	height: 100px;
 	width: 100px;
 }
 
+/* CONFIGURAÇÃO PARA MUDAR LETRA DO LUGAR
 #letrasclicadas{
 	position: relative;
-	width:75px;
+	width:75px;px
 	height:75px;
 	top: -320px;
 	left: 300px;
+	border: 2px solid green;
+}*/
+
+#letrasclicadas{
+	height: 100px;
+	width: 100px;
+	border: 2px solid green;
 }
 
 </style>
@@ -121,7 +130,8 @@ $diretorio -> close();*/
     $palavra=substr($linha,0,$pos);
     $dica=substr($linha,$pos+1,strlen($linha));
 		$MSM = $palavra;
-		echo $MSM;
+		
+		//echo $MSM;
 
 	// Armazenando os caracteres informados, para controles de links e exibiçao na palavra
 	$digitadas=$digitadas.$letra;
@@ -232,8 +242,8 @@ $diretorio -> close();*/
   if($erros<6)
   // Se o numero de erros for menor do que 6 ainda temos chance de vencer
   {
-    echo '<FONT SIZE="-1" COLOR="red" face="Tahoma">Para jogar selecione abaixo o caracter desejado ...<br></FONT>
-</><br>
+    echo '<center> <FONT SIZE="-1" COLOR="red" face="Tahoma"> PARA JOGAR SELECIONE ABAIXO O CARACTER DESEJADO...</FONT>
+</><FONT SIZE="-1" COLOR="blue" face="Tahoma"> AS LETRAS SELECIONADAS IRAO APARECER COM A BORDA <font color="green"> VERDE </font></font></br> </center>
 ';
 	for($i=0;$i<26;$i++)
     {
@@ -247,7 +257,7 @@ $diretorio -> close();*/
 	  }
       // Caracter ja foi digitado, somente exibi-lo, sem link
 	  if($ja_foi==true)
-        echo "<img id='letrasclicadas' src='".$imagens[$i]."'>".'&nbsp;&nbsp;&nbsp;
+         echo "<img id='letrasclicadas' src='".$imagens[$i]."'>".'&nbsp;&nbsp;&nbsp;
 ';
       else
         // Caracter ainda nao foi informado exibir com link
